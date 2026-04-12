@@ -1,0 +1,22 @@
+{
+  "iter": 1,
+  "status": "complete",
+  "grasp_force": 0,
+  "shake_result": {
+    "secure": true,
+    "slip_at": null,
+    "gripper_pos_before": 122,
+    "gripper_pos_after": 122
+  },
+  "error": null,
+  "timings_s": {
+    "color thresholding": 0.03487646800931543,
+    "object depth estimation": 0.0004702899605035782,
+    "grasp planning": 0.41827847401145846,
+    "compute grasp poses": 0.001288880011998117,
+    "execute grasp": 13.138387804036029
+  },
+  "object_depth_from_camera": 0.3726634794945086,
+  "pixels_per_meter": 1964.7689460451325,
+  "gripper_pos_after_grasp": 122
+}

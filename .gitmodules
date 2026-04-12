@@ -1,0 +1,6 @@
+[submodule "get_2d_planner"]
+	path = get_2d_planner
+	url = https://github.com/Apgoldberg1/GET_2D_Planner.git
+[submodule "get_3d_planner"]
+	path = get_3d_planner
+	url = https://github.com/Apgoldberg1/GET_3D_Planner.git
