@@ -1,6 +1,6 @@
 # 2D and 3D Grasp Planners for the GET Asymmetrical Gripper
 
-**[Paper](#) | [Website](https://apgoldberg1.github.io/GET_Planning/)**
+**[Paper](https://apgoldberg1.github.io/GET_Planning/media/GET_Planning_Paper.pdf) | [Website](https://apgoldberg1.github.io/GET_Planning/)**
 
 **Andrew Goldberg**<sup>1</sup>, **Ethan Ransing**<sup>1</sup>, **Anton Kourakin**<sup>1</sup>, **Cael Magner**<sup>1</sup>, **Edward H. Adelson**<sup>2</sup>, **Ken Goldberg**<sup>1</sup>
 
