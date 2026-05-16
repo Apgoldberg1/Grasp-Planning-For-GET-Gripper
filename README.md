@@ -61,16 +61,33 @@ uv run scripts/planner_3d_api.py
 
 See each planner's `README.md` for full CLI usage, available parameters, and visualization options.
 
+## Gripper Assembly
+
+Inside the `gripper_files` are CAD and mesh files compatible with the Robotiq 2F-85 gripper and YAM crankshaft gripper.
+
+**Tape Application & Assembly**
+
+1. **Base Layers:** 3 layers of VHB Tape (3M™ VHB™ Tape 4905)
+2. **Top Layer:** 1 layer of Grip Tape (3M™ Gripping Material TB641)
+
+Apply each layer one at a time. After applying each layer, use an X-Acto blade to cut and trim the edges flush with the part before applying the next layer.
+
+**Print Orientation Options**
+
+For **Maximum Strength** print with the face of the jaw lying flat against the build plate.
+
 ## Citation
 
 If you use this code, please cite our paper:
 
 ```bibtex
-@article{goldberg2026getplanning,
-  title   = {2D and 3D Grasp Planners for the GET Asymmetrical Gripper},
-  author  = {Goldberg, Andrew and Ransing, Ethan and Kourakin, Anton and Magner, Cael and Adelson, Edward H. and Goldberg, Ken},
-  journal = {},
-  year    = {2026},
-  url     = {},
+@misc{goldberg20262d3dgraspplanners,
+      title={2D and 3D Grasp Planners for the GET Asymmetrical Gripper}, 
+      author={Andrew Goldberg and Ethan Ransing and Anton Kourakin and Cael Magner and Edward H. Adelson and Ken Goldberg},
+      year={2026},
+      eprint={2604.26212},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2604.26212}, 
 }
 ```
